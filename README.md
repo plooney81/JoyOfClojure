@@ -1,6 +1,25 @@
-# joy
+# Joy
 
-* Repo that houses code written while working through the book "The Joy of Clojure"
+* This repo houses code written while working through the book "The Joy of Clojure" by Micael Fogus and Chris Houser.
+* If you are interested in their book, you can find it [here](https://www.manning.com/books/the-joy-of-clojure-second-edition)
+
+## From the Beginning
+
+* Started off learning about different types of collections, including Lists (which you know are pretty important in Lisp), Vectors, Maps, and Sets.
+
+### Lessons Learned
+
+* Clojure does not consider any empty collection to be nil
+```clojure
+;List
+(nil? ()) ;=> false
+; Vector
+(nil? []) ;=> false
+; Map
+(nil? {}) ;=> false
+; Set
+(nil? #{}) ;=> false
+```
 
 <!-- FIXME: description
 
